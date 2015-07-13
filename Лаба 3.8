@@ -1,0 +1,29 @@
+# PR1_Shutov_lab_rab_3
+<!DOCTYPE html>
+<html>
+<head>
+<script src="http://code.jquery.com/jquery-latest.js">
+</script>
+<script>
+function getRandomColor() {
+    var letters = '0123456789ABCDEF'.split('');
+    var color = '#';
+    for (var i = 0; i < 6; i++ ) {
+        color += letters[Math.floor(Math.random() * 16)];
+    }
+    return color;
+}
+$(document).ready(function () {
+$("input").keypress(function () {
+$(this).css("background-color", getRandomColor);
+});
+$("input").blur(function () {
+$(this).css("background-color", getRandomColor);
+});
+});
+</script>
+</head>
+<body>
+Введите число: <input type="text" name="fullname"><br>
+</body>
+</html>
