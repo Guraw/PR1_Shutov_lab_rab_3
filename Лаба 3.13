@@ -1,0 +1,44 @@
+# PR1_Shutov_lab_rab_3
+<!DOCTYPE html> 
+<html> 
+<head> 
+<script src="http://code.jquery.com/jquery-latest.js"> 
+</script> 
+<script> 
+    $(document).ready(function () { 
+        $("button").click(function () { 
+            $("#div5").animate({left: '100px' });
+            $("#div9").animate({left: '100px' }); 
+        }); 
+        $("#div2").click(function () {
+		$('#div2').delay(50).animate({marginTop:+30},0);
+	});
+        $("#div4").click(function () {
+		$('#div4').delay(50).animate({marginTop:+30},0);
+	});
+        $("#div6").click(function () {
+		$('#div6').delay(50).animate({marginTop:+30},0);
+	});
+        $("#div8").click(function () {
+		$('#div8').delay(50).animate({marginTop:+30},0);
+	});
+        $("#div10").click(function () {
+		$('#div10').delay(50).animate({marginTop:+30},0);
+	});
+    }); 
+</script>  
+</head> 
+<body> 
+<button>Запуск</button> <br>
+<div id="div1" style="width:180px;height:20px;position:absolute">Зеленый</div> <br>
+<div id="div2"style="background:green;height:40px;width:40px;position:absolute;"> </div> <br><br>
+<div id="div3" style="width:180px;height:20px;position:absolute">Красный</div><br>
+<div id="div4"style="background:red;height:40px;width:40px;position:absolute;"></div> <br><br>
+<div id="div5" style="width:180px;height:20px;position:absolute;">Черный</div><br>
+<div id="div6"style="background:black;height:40px;width:40px;position:absolute;"></div> <br><br>
+<div id="div7" style="width:180px;height:20px;position:absolute">Ораньжевый</div><br>
+<div id="div8"style="background:orange;height:40px;width:40px;position:absolute;"></div> <br><br>
+<div id="div9" style="width:180px;height:20px;position:absolute;">Голубой</div><br>
+<div id="div10"style="background:blue;height:40px;width:40px;position:absolute;"></div> 
+</body> 
+</html>
