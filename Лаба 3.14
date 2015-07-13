@@ -1,0 +1,29 @@
+# PR1_Shutov_lab_rab_3
+<!DOCTYPE html> 
+<html> 
+<head> 
+<script src="http://code.jquery.com/jquery-latest.js"> 
+</script> 
+<script> 
+    $(document).ready(function () { 
+        $("button").click(function () { 
+		$('#div1').delay(50).animate({left: '40px' });
+                $('#div2').text('Nyx Assassin');
+                $('#div3').delay(50).animate({left: '40px' });
+                $('#div4').text('Witch Doctor');
+                $('#div5').delay(50).animate({left: '40px' });       
+                $('#div6').text('Axe');
+	});     
+    }); 
+</script>  
+</head> 
+<body> 
+<button>Запуск</button> <br>
+<div id="div1" style="width:180px;height:20px;position:absolute">Nyx Assassin</div> <br>
+<div id="div2" style="width:180px;height:20px;position:absolute">Enigma</div><br>
+<div id="div3" style="width:180px;height:20px;position:absolute;">Witch Doctor</div><br>
+<div id="div4" style="width:180px;height:20px;position:absolute">Doom</div><br>
+<div id="div5" style="width:180px;height:20px;position:absolute;">Axe</div><br>
+<div id="div6" style="width:180px;height:20px;position:absolute;">Nevermore</div><br> 
+</body> 
+</html>
