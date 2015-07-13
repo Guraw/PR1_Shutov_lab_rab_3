@@ -1,0 +1,36 @@
+# PR1_Shutov_lab_rab_3
+<!DOCTYPE html>
+<html>
+<head>
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script>	 		
+	$(document).ready(function () {
+		$("button").click(function () {
+		var i=1;
+		do{
+		$(".p2").fadeToggle(2000);
+		i++;
+		if(i%2==0){
+			$(".p1").fadeToggle(2000);}
+		}
+		while(i<2000)
+		$(".p1").hide();
+		});
+});
+</script>
+</head>
+<body>
+<p class="p1"style="display:none">Invoker</p>
+<p class="p2" style="display:none">Axe</p>
+<p class="p1"style="display:none">Timbersaw</p>
+<p class="p2" style="display:none">Kunka</p>
+<p class="p1"style="display:none">Phantom Assassin</p>
+<p class="p2" style="display:none">Nevermore</p>
+<p class="p1"style="display:none">Enigma</p>
+<p class="p2" style="display:none">Magnus</p>
+<p class="p1"style="display:none">Phantom Lancer</p>
+<p class="p2" style="display:none">Juggernaut</p>
+</body>
+<br>
+<button>Строки</button>
+</html>		
