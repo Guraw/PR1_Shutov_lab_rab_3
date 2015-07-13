@@ -1,0 +1,32 @@
+# PR1_Shutov_lab_rab_3
+<!DOCTYPE html> 
+<html> 
+<head> 
+<script src="http://code.jquery.com/jquery-latest.js"> 
+</script>  
+<script>
+     $(document).ready(function () {
+         $("#btn1").click(function () {
+		 $("[href]").hide();
+	});
+	$("#btn2").click(function () {
+		 $("[href]").show();
+	});
+     });
+
+</script> 
+</head> 
+<body>  
+<p><a href="http://youtube.com">Сайт видео хостинга Youtube"</a></p>
+<p>Сайт видео хостинга Rutube</p>
+<p>Сайт фильмов ivi</p>
+<p><a href="http://yandex.ru">Поисковая система Yandex</a></p>
+<p><a href="http://google.ru">Поисковая система Google</a></p>
+<p>Поисковая система Yahoo</p>
+<p><a href="http://store.steampowered.com">Сайт игровой платформы Steam</a></p>
+<br>
+<br>
+<button id="btn1">Скрыть элементы c атрибутом href</button>
+<button id="btn2">Отобразить элементы c атрибутом href</button>
+</body> 
+</html>
